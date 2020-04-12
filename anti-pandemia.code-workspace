@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"plantuml.diagramsRoot": "docs_src",
+		"plantuml.exportFormat": "png",
+		"plantuml.exportOutDir": "docs_src/images",
+		"plantuml.exportSubFolder": false
+	}
+}

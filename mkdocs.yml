@@ -1,0 +1,76 @@
+# Project information
+site_name: 'Pandemia management'
+site_description: 'Mobile application for pandemia management'
+site_author: 'Jesus Ruiz'
+site_url: 'https://alastria.github.io/anti-pandemia/'
+
+# Repository
+repo_url: 'https://github.com/alastria/anti-pandemia'
+edit_uri: 'blob/master/docs/'
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2020 Jesus Ruiz'
+
+# Configuration
+theme:
+  name: 'material'
+  logo: images/logo.png
+  favicon: images/logo.png
+  prev_next_buttons_location: both
+  include_homepage_in_sidebar: False
+#  custom_dir: theme_override/
+
+extra_css:
+  - css/extra.css
+
+plugins:
+  - search
+#  - awesome-pages
+  - mkdocs-add-number-plugin:
+      increment_pages: True
+      strict_mode: False
+      order: 2
+
+
+docs_dir: docs_src
+site_dir: docs
+
+nav:
+- Home: README.md
+- Requirements:
+  - Functional: requirements/functional.md
+  - Non functional: requirements/non-functional.md
+- Technical:
+  - Types of Credentials: credential-types/credential-types.md
+  - Onboarding:
+    - Introduction: onboarding/introduction.md
+    - Natural persons: onboarding/natural_persons.md
+    - Entities: onboarding/entities.md
+  - Issuance and Verification:
+    - Issuing credentials: credential-flow/issuing_credentials.md
+    - Verifying credentials: credential-flow/verify_credentials.md
+- Considerations:
+  - Peer DIDs: considerations/peerdids.md
+- References: references/references.md
+
+
+# Extensions
+markdown_extensions:
+  - extra
+  - admonition
+  - sane_lists
+  - toc
+
+
+# Copyright
+copyright: '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Jesus Ruiz</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons CC BY-SA 4.0 License</a>.'
+
+# Customization
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/alastria'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/alastria/'
+
+
