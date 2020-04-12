@@ -6,7 +6,7 @@
     </p>
     -- <cite>[Joint statement of the Members of the European Council (26 March 2020)](https://www.consilium.europa.eu/media/43076/26-vc-euco-statement-en.pdf)</cite>
 
-# Immunisation and collective knowledge with Verifiable Credentials and Blockchain for social recovery after the pandemia
+# Immunisation and colllective knowledge with Verifiable Credentials and Blockchain for social recovery after the pandemia
 
 ![](images/general-overview.png)
 
