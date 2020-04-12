@@ -36,7 +36,7 @@ docs_dir: docs_src
 site_dir: docs
 
 nav:
-- Home: README.md
+- Home: index.md
 - Requirements:
   - Functional: requirements/functional.md
   - Non functional: requirements/non-functional.md
