@@ -51,6 +51,7 @@ nav:
     - Verifying credentials: credential-flow/verify_credentials.md
 - Considerations:
   - Peer DIDs: considerations/peerdids.md
+  - Well Known DID Configuration: considerations/easy_onboarding_entities.md
 - References: references/references.md
 
 
