@@ -4,11 +4,9 @@ Using the [IETF 8615 Well-Known Uniform Resource Identifiers](https://tools.ietf
 
 The entity has to provide proof of a bi-directional relationship between the controller of an Internet domain and a DID via cryptographically verifiable signatures that are linked to a DID's key material.
 
-The details can be found in the DIF document ['Well Known DID Configuration'](https://identity.foundation/specs/did-configuration/) but essentially it consists in the following:
+The details can be found in the DIF document ['Well Known DID Configuration'](https://identity.foundation/specs/did-configuration/) but essentially it means that the DID Configuration resource MUST exist at the domain root, in the IETF 8615 Well-Known Resource directory, as follows.
 
-The DID Configuration resource MUST exist at the domain root, in the IETF 8615 Well-Known Resource directory, as follows:
-
-Assume that an entity has the following domain: `example.com`
+Assume that an entity has the following domain: `example.com`.
 Then at the URL `https://www.example.com/.well-known/did-configuration` there should be a document like the following, with a JSON object containing a DID string and cryptographic proof (in the form of a JWT signed with the specified DID's keys) that verifies **the domain controller and the DID controller are the same entity**.
 
 ```json
