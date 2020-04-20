@@ -1,4 +1,12 @@
-# Easy onboarding of entities with Well Known DID Configuration (DIF)
+# Easy onboarding of companies (especially SMEs)
+
+For the use case of issuing responsible declarations from a company involving an employee, the onboarding process for those companies should be easy and as decentralized as possible, to enable mass onboarding. The level of assurance of the identity of the company should be just enough for the needs of the use case. This is especially true for SMEs, where the amount of resources and technical skills required should be kept to the minimum possible.
+
+Please note that in this use case (issuing responsible declarations), the onboarding process does not have to provide information on what type of combany or the type of business of the company.
+
+The following paragraphs describe several options that can be used, each with some advantages and disadvantages. Due to their simplicity, a combination of several ofpions can be implemented simultaneously, to provide more options to the companies.
+
+## Easy onboarding using IETF 8615 Well-Known Uniform Resource Identifiers
 
 Using the [IETF 8615 Well-Known Uniform Resource Identifiers](https://tools.ietf.org/html/rfc8615), the DIF (Decentralized Identity Foundation) has [specified](https://identity.foundation/specs/did-configuration/) one way to facilitate the connection of existing systems and Decentralized Identifiers (DIDs), which is important to facilitate adoption of DIDs in the enterprise arena. The idea is to use the ability of a DID controller to prove it is the same entity that controls an Internet domain.
 
@@ -25,3 +33,7 @@ Then at the URL `https://www.example.com/.well-known/did-configuration` there sh
   ]
 }
 ```
+
+## Easy onboarding using an existing traditional digital certificate
+
+Many companies or representatives of those companies already possess a "traditional" digital certificate. This could be used to implement an autonomous onboarding process.
