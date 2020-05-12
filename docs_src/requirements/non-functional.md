@@ -4,8 +4,6 @@
 
 - Integrated with EBSI (European Blockchain Services Infrastructure) and reusing the ESSIF components, where EBSI will have a global public registry of official health institutions (similar to the registry for Universities). The EBSI registry should be accessible externally by anybody in read mode, to verify the public identities of the health institutions. However, the application can be configured to work using any other blockchain network with compatible interfaces. Additionally, the application can reuse many of the components already available for the Diplomas use case in EBSI.
 
-
-
 - In an initial phase of the application, it is not strictly necessary that the citizens have an official identity issued by the government (ESSIF). For crisis management it could be enough that they self-issue a DID which is then used in the credential issued by the practitioner when performing the test or vaccination procedure to the citizen.
 
 
