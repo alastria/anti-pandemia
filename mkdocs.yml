@@ -27,7 +27,6 @@ plugins:
   - search
 #  - awesome-pages
   - mkdocs-add-number-plugin:
-      increment_pages: True
       strict_mode: False
       order: 2
 
