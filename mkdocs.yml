@@ -35,7 +35,7 @@ docs_dir: docs_src
 site_dir: docs
 
 nav:
-- Home: index.md
+- Home: index2.md
 - Requirements:
   - Functional: requirements/functional.md
   - Non functional: requirements/non-functional.md

@@ -2,9 +2,10 @@
 
 Taken from [Designing and implementing an immunisation information system](https://www.ecdc.europa.eu/sites/portal/files/documents/designing-implementing-immunisation-information-system_0.pdf).
 
+
 | **Vaccine provider**                                  |                   |
 --------------------------------------------------------|-------------------|
-| Identification (Name, surname and ID)                 | [Medical Organization (Schema.org)](https://schema.org/MedicalOrganization) |
+| **Identification** (Name, surname and ID)                 | [Medical Organization (Schema.org)](https://schema.org/MedicalOrganization) |
 | Location of the health facility or vaccination centre | [Location (Schema.org)](https://schema.org/location) |
 | Type of vaccine provider (private/public)             | String     |
 | Contact telephone                                     | [Telephone (Schema.org)](https://schema.org/telephone) |
