@@ -1,13 +1,16 @@
-h1 {
+.md-typeset h1 {
     color: #003399;
+    font-weight: normal;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-h2 {
+.md-typeset h2 {
     color: #003399;
+    font-weight: normal;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-h3 {
+.md-typeset h3 {
     color: #003399;
+    font-weight: normal;
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -18,4 +21,18 @@ body {
 /* .admonition.danger .admonition-title {
     background: red !important;
 }
+
+
+table {
+    border-collapse: collapse;
+}
 */
+
+
+table, th, td {
+    border: 1px solid #3f51b5 !important;
+}
+
+.md-typeset table th {
+    background-color: #3f51b5 !important;
+}
